@@ -46,6 +46,8 @@
       </li>
     </ul>
     <h2>EXTRA THICC</h2>
+    <input v-model="message" placeholder="Enter Name">
+    <p>Message is: {{ message }}</p>
     <ul>
       <li>
         <a
